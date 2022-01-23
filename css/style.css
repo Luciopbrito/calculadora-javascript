@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+body {
+    font: normal 20px 'Open Sans', sans-serif;
+}
+
+.calculadora-design {
+    width: 500px;
+    padding: 1%;
+    border: 1px solid black;
+    border-radius: 40px;
+    margin: auto;
+    transform: translateY(150px);
+}
+
+.title {
+    text-align: center;
+    margin-top: 0;
+}
+
+.input-itens {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 5px;
+}
+
+.calculadora {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.input-button {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#txtn1, #txtn2, #txtop {
+    width: 60%;
+    height: 30px;
+    font-size: 1em;
+    text-align: center;
+    align-self: center;
+}
+
+label {
+    text-align: center;
+}
+
+.resposta {
+    display: none;
+    justify-content: center;
+    column-gap: 10px;
+    margin-top: 20px;
+}
