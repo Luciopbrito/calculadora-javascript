@@ -1,57 +1,140 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+
+/*ipad*/
+@media (max-width: 912px) {
+  body {
+    font-size: 30px !important;
+  }
+
+  .calculadora-design {
+    width: 80% !important;
+    padding: 20px !important;
+  }
+
+  .calculadora {
+    padding: 30px 0 !important;
+  }
+
+  #txtn1,
+  #txtn2,
+  #txtop {
+    height: 50px !important;
+    border: 1px solid black !important;
+  }
+
+  .input-button input {
+    font-size: 20px !important;
+    padding: 10px;
+  }
+
+  .input-button {
+    gap: 50px !important;
+  }
+}
+
+@media (max-width: 722px) {
+  body {
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 472px) {
+  body {
+    font-size: 20px !important;
+  }
+
+  .calculadora-design {
+    padding: 30px !important;
+    width: 80% !important;
+  }
+
+  .calculadora {
+    padding: 40px 0 !important;
+  }
+
+  #txtn1,
+  #txtn2,
+  #txtop {
+    height: 30px !important;
+    border: 1px solid black !important;
+  }
+}
+
+@media (max-width: 360px) {
+  body {
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 280px) {
+  body {
+    font-size: 15px !important;
+  }
+
+  .input-button input {
+    font-size: 15px !important;
+  }
+
+  .calculadora-design {
+    padding: 20px !important;
+  }
+}
 
 body {
-    font: normal 20px 'Open Sans', sans-serif;
+  font: normal 20px "Open Sans", sans-serif;
 }
 
 .calculadora-design {
-    width: 500px;
-    padding: 1%;
-    border: 1px solid black;
-    border-radius: 40px;
-    margin: auto;
-    transform: translateY(150px);
+  width: 500px;
+  margin: auto;
+  padding: 1%;
+  border-radius: 20px;
+  border: 1px solid black;
 }
 
 .title {
-    text-align: center;
-    margin-top: 0;
+  text-align: center;
+  margin-top: 0;
 }
 
 .input-itens {
-    display: flex;
-    flex-flow: column nowrap;
-    gap: 5px;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 5px;
 }
 
 .calculadora {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 15px;
 }
 
 .input-button {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
 }
 
-#txtn1, #txtn2, #txtop {
-    width: 60%;
-    height: 30px;
-    font-size: 1em;
-    text-align: center;
-    align-self: center;
+#txtn1,
+#txtn2,
+#txtop {
+  width: 60%;
+  height: 30px;
+  font-size: 1em;
+  text-align: center;
+  align-self: center;
+  border: 1px solid black !important;
 }
 
 label {
-    text-align: center;
+  text-align: center;
 }
 
 .resposta {
-    display: none;
-    justify-content: center;
-    column-gap: 10px;
-    margin-top: 20px;
+  display: none;
+  justify-content: center;
+  column-gap: 10px;
+  margin-top: 20px;
 }
