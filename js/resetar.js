@@ -1,3 +1,3 @@
 function resetar() {
-    window.location.href = 'index.html'
+    window.location.reload();
 }
