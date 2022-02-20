@@ -17,4 +17,4 @@ As operações aceitas são:
 - Soma '+'
 - Subtração '-'
 - Divisão '/'
-- O operador para multiplicação tem a varidade entre '\*' 'x' e 'X'
+- O operador para multiplicação tem a variedade entre '\*' 'x' e 'X'
