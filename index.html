@@ -8,30 +8,47 @@
     <link rel="stylesheet" href="./css/style.css">   
 </head>
 <body>
-    <div class="calculadora-design">
-        <h1 class="title">Calculadora</h1>
-        <div class="calculadora">
-            <div  class="input-itens">
+    <header>
+        <div class="conteiner">
+            <h1 class="title">Calculadora</h1>
+        </div>
+    </header>
+    <main>
+        <div class="conteiner">
+            <div  class="calculadora">
                 <label for="txtn1">1ª valor</label>
                 <input type="number" name="txtn1" id="txtn1">
-            </div>
-            <div class="input-itens">
                 <label for="txtop">operação</label>
                 <input type="text" name="txtop" id="txtop">
-            </div>
-            <div class="input-itens">
                 <label for="txtn2">2ª valor</label>
                 <input type="number" name="txtn2" id="txtn2">
+                <div class="box__btn">
+                    <button onclick="verificar()">Calcular</button>
+                    <button onclick="resetar()">Resetar</button>
+                </div>
+                <div class="res"></div>
             </div>
         </div>
-        <div class="resposta">
+    </main>
+    <footer>
+        <div class="conteiner">
+            <div class="social">
+                <div>
+                    <a rel="author" href="https://www.linkedin.com/in/l%C3%BAcio-pereira-brito-039039231/" target="_blank">
+                        <img src="./img/img1_footer.png" alt="icone">
+                    </a>
+                </div>
+                <div>
+                    <a rel="author" href="https://www.github.com/luciopbrito/calculadora-javascript/" target="_blank">
+                        <img src="./img/img2_footer.png" alt="icone">
+                    </a>
+                </div>
+            </div>
+            <p>&copy;2022 LúcioDev</p>
         </div>
-        <div class="input-button">
-            <input type="button" value="Calcular">
-            <input type="button" value="Resetar" onclick="resetar()">
-        </div>
-    </div>
+    </footer>
 </body>
-    <script src="./js/calcular.js"></script>
+    <script src="./js/verificar.js"></script>
     <script src="./js/resetar.js"></script>
+    <script src="./js/calcular.js"></script>
 </html>
